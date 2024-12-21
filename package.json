@@ -1,0 +1,29 @@
+{
+  "name": "api-example-meetings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^8.5.0",
+    "async": "^3.2.4",
+    "dotenv": "^16.0.3",
+    "hubspot": "^2.3.14",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
